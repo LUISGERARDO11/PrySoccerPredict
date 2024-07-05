@@ -1,6 +1,6 @@
 # Ignorar carpetas Movil y web
-Movil/
-web/
+/Movil
+/web
 
 # Ignorar el entorno virtual de Python
 myenv/
