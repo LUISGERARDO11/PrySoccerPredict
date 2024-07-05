@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from '../styles/Header.module.css';
+import RotatingBall from './RotatingBall';
 
 const Header: React.FC = () => {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/soccer_icon_137174.png" alt="SportyTrader Logo" className={styles.logo} />
-        <span className={styles.title}>PredictaGoal</span>
+        <RotatingBall/>
+        <span className={styles.title}>SportyPredict</span>
       </div>
     </header>
   );

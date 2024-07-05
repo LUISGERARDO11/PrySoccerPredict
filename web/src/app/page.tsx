@@ -79,10 +79,10 @@ const Page: React.FC = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Pronósticos MX</title>
+        <title>SportPredict</title>
       </Head>
       <Header />
-      <h1 className={styles.heading}>Pronósticos Liga</h1>
+      <h1 className={styles.heading}>Pronósticos de la Liga Premier</h1>
       <ColumnHeaders />
       <div className={styles.predictions}>
         {predictions.map((prediction, index) => (
