@@ -1,0 +1,92 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--primary-color);;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade esta línea */
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+  .imageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .teamLabel {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 15px;
+  }
+  
+  .image {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prediction {
+    text-align: center;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .selector {
+    width: 200px;
+    padding:10px;
+  }
+  
+  .acceptButton {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .acceptButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .boldText {
+    font-size: 22px;
+    font-weight: bold;
+  }
